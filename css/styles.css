@@ -91,6 +91,9 @@ a { text-decoration: none; transition: var(--transition); }
 .mega-tab { font-size: 13px; font-weight: 500; color: var(--text-body); padding: 8px 20px; border-radius: 20px; transition: var(--transition); white-space: nowrap; }
 .mega-tab:hover { color: var(--purple); background: rgba(124,58,237,0.08); }
 
+/* Nav Mobile Links (visible only on mobile inside hamburger) */
+.nav-mobile-links { display: none; }
+
 /* Nav Buttons */
 .btn-search { width: 36px; height: 36px; border-radius: 50%; border: none; background: var(--purple); color: var(--white); display: flex; align-items: center; justify-content: center; font-size: 14px; cursor: pointer; transition: var(--transition); }
 .btn-search:hover { background: var(--purple-dark); }
@@ -405,6 +408,9 @@ a { text-decoration: none; transition: var(--transition); }
     .nav-actions { margin-top: 16px; flex-direction: column; gap: 10px !important; }
     .nav-actions .btn-request-demo { width: 100%; text-align: center; }
     .nav-actions .btn-search { width: 100%; border-radius: 30px; height: 42px; }
+    .nav-mobile-links { display: flex; gap: 0; flex-direction: column; margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border-color); }
+    .nav-mobile-links a { font-size: 14px; font-weight: 500; color: var(--text-dark); padding: 10px 14px; border-bottom: 1px solid rgba(0,0,0,0.04); display: flex; align-items: center; gap: 8px; }
+    .nav-mobile-links a:hover { color: var(--purple); }
 
     /* Hero */
     .hero-section { padding: 40px 0 30px; min-height: auto; }
