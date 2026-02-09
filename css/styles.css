@@ -63,7 +63,7 @@ a { text-decoration: none; transition: var(--transition); }
 .brand-text { font-family: 'Poppins', sans-serif; font-size: 19px; font-weight: 700; color: var(--navy); letter-spacing: -0.5px; }
 .brand-accent { color: var(--purple); }
 
-.navbar .nav-link { font-family: 'Inter', sans-serif; font-size: 13px; font-weight: 500; color: var(--text-dark); padding: 8px 10px !important; }
+.navbar .nav-link { font-family: 'Inter', sans-serif; font-size: 15px; font-weight: 500; color: var(--text-dark); padding: 8px 10px !important; }
 .navbar .nav-link:hover { color: var(--purple); }
 .navbar .nav-link .small { font-size: 10px; margin-left: 2px; }
 
